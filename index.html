@@ -6,20 +6,9 @@
 		<!-- Load webcomponent lite -->
 		<script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
 		<!-- Link to polymer html -->
-		<link rel="import" href="bower_components/polymer/polymer.html">
+		<link rel="import" href="elements/hello-element.html">
 	</head>
 	<body>
-		<hello-element></hello-element>
-
-		<dom-module id="hello-element">	
-			<template>
-				Hello there
-			</template>
-		</dom-module>
-		<script>
-			Polymer({
-				is: "hello-element"
-			})
-		</script>
+		<hello-element></hello-element>	
 	</body>
 </html>		
